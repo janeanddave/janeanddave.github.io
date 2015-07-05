@@ -1,0 +1,22 @@
+body {
+  font-family: Futura, sans-serif;
+}
+
+h2,
+.jumbotron,
+p {
+  text-align: center;
+}
+
+nav ul {
+  background-color: black;
+}
+
+nav ul a {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
