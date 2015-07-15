@@ -16,6 +16,21 @@ nav ul a {
   color: white;
 }
 
+#rsvp {
+  text-align: center;
+}
+
+form input, textarea {
+  margin: 5px;
+}
+
+#email,
+#firstName,
+#lastName,
+#message {
+  display: block;
+}
+
 footer {
   background-color: black;
   color: white;
