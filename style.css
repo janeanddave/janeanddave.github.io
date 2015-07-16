@@ -16,6 +16,10 @@ nav ul a {
   color: white;
 }
 
+.container {
+  text-align: center;
+}
+
 #rsvp {
   text-align: center;
 }
