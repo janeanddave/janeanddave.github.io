@@ -56,6 +56,10 @@ a:hover {
   text-decoration: none;
 }
 
+h2 a {
+  color: #091944;
+}
+
 #rsvp {
   display: block;
   text-align: center;
