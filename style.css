@@ -8,8 +8,10 @@
    */
 
 body {
-  font-family: Futura, sans-serif;
+  font-family: "futura-pt", Futura, sans-serif;
+  font-style: normal;
   color: #091944;
+  font-weight: 500;
 }
 
 h2,
@@ -18,16 +20,16 @@ p {
   text-align: center;
 }
 
-/*p {
-  font-size: 1.5em;
-}*/
+.light {
+  font-weight: 300;
+}
 
 .jumbotron {
   background-color: #8ea6b0;
 }
 
 .jumbotron h1,
-.jumbotron p {
+.jumbotron h2 {
   color: white;
 }
 
@@ -41,6 +43,10 @@ nav ul a {
 
 nav ul a:hover {
   color: #f0705c;
+}
+
+.nav li a:hover {
+  background-color: #091944;
 }
 
 .container {
