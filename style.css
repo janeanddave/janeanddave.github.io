@@ -12,6 +12,11 @@ body {
   font-style: normal;
   color: #091944;
   font-weight: 500;
+  /*font-size: 20px;*/
+}
+
+p {
+  font-size: 1.5em;
 }
 
 h2,
@@ -22,6 +27,10 @@ p {
 
 .light {
   font-weight: 300;
+}
+
+.book {
+  font-weight: 400;
 }
 
 .jumbotron {
@@ -35,6 +44,10 @@ p {
 
 nav ul {
   background-color: #091944;
+}
+
+nav ul li a {
+  font-size: 20px;
 }
 
 nav ul a {
@@ -88,4 +101,22 @@ footer {
   color: white;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.header {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+#ceremony a,
+#reception a {
+  color: #091944;
+}
+
+#ceremony a:hover,
+#reception a:hover {
+  color: #f0705c;
 }
