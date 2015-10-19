@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
   var updateWeddingMoment = function () {
-    console.log("updating");
     var result = moment("20160409", "YYYYMMDD").fromNow();
     $("#wedding-moment").text(result);
   };
